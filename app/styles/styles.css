@@ -1,0 +1,100 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body, html {
+    height: 100%;
+    background-color: #454545;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background-image: url("../images/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 32px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2d4c29;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+header p:nth-child(2) {
+    color: #102c0c;
+}
+
+p {
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 48px;
+    color: #ffffff;
+}
+
+.first-section {
+    display: flex;
+    text-align: center;
+    padding: 48px;
+    color: #ffffff;
+}
+
+.first-section-div {
+    margin-right: 40px;
+}
+
+.first-section-div:nth-child(3) {
+    margin-right: 0;
+}
+
+.first-section-images {
+    width: 330px;
+    height: 230px;
+    margin-bottom: 16px;
+    border: 8px solid #707070;
+}
+
+.second-section {
+    display: flex;
+    text-align: left;
+    padding: 48px 56px;
+    color: #ffffff;
+    background-color: #707070;
+}
+
+.second-section-image {
+    width: 330px;
+    height: 320px;
+    border: 14px solid #2b2b2b;
+    border-radius: 50%;
+}
+
+.second-section-div {
+    margin-left: 56px;
+}
+
+.second-section-div p:nth-child(4) {
+    font-style: italic;
+}
+
+.second-section-div p:nth-child(3) {
+    font-weight: bold;
+}
+
+.second-section-title {
+    font-size: 1.8rem;
+}
+
+.second-section-paragraph {
+    padding-bottom: 24px;;
+}
